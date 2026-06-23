@@ -1,0 +1,19 @@
+name: apl_streamlit
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - cudatoolkit=11.2.2
+  - cudnn=8.1.0.77
+  - pip
+  - pip:
+    - tensorflow==2.10.0
+    - numpy==1.26.4
+    - protobuf==3.19.6
+    - streamlit==1.13.0
+    - altair==4.2.2
+    - matplotlib
+    - spectral
+    - joblib
+    - scikit-learn
